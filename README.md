@@ -1,2 +1,2 @@
 
-https://nazhula.github.io/rsschool-cv/
+https://nazhula.github.io/rsschool-cv/cv
