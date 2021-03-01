@@ -2,7 +2,6 @@
 
 ## Contacts
 email:   nazhula@mail.ru
- 
 
 ## Goal
 
@@ -40,15 +39,12 @@ for (var i=0, len=num.length; i<len; i++) {
 console.log( num ); 
 ```
 
-
-
 ## Experience
 Since 2006 I have been working as a software engineer
 
 ## Education
 - Course Angular (Training center "Traitech")
 - Course React (Training center "Traitech") 
-
 
 ## Languages
  English (B2 - Upper-Intermediate)
