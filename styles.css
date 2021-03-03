@@ -1,0 +1,107 @@
+.main_content{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header_content {
+    height: 360px;
+    margin-bottom: 60px;
+}
+
+
+hr{
+    margin-bottom: 30px;
+    border: none; /* Убираем границу для браузера Firefox */
+    color: orange; /* Цвет линии для остальных браузеров */
+    background-color: orange; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+
+.info_block {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.foto_block {
+    float: left;
+    width: 39%;
+    height: 100%;
+}
+
+.round {
+    border-radius: 200px; /* Радиус скругления */
+    box-shadow: 0 0 1px gray; /* Параметры тени */
+   }
+
+   h2 {
+    color: orange;
+    text-transform: uppercase;
+    font-family: Lato-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 36px;
+}
+
+h1 {
+    color: orange;
+    font-family: Lato-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 62px;
+
+}
+
+p {
+    color: #1F2B3B;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+
+}
+
+
+li {
+    list-style-type: none; 
+   }
+   li::before {
+    color: orange; 
+    content: "▪"; 
+    padding-right: 5px; 
+   }
+
+
+
+ li  {
+    color: #1F2B3B;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 3px;
+      
+
+}
+
+pre {
+    margin: 0;
+    color: #1F2B3B;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+} 
+
+.exp_code {
+    background-color: #d9ded7;
+    margin: 0;
+    padding: 20px;
+    margin-right: 85px;
+}
