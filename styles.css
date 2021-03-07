@@ -100,8 +100,39 @@ pre {
 } 
 
 .exp_code {
-    background-color: #d9ded7;
+    background-color: #D3D3D3;
     margin: 0;
     padding: 20px;
     margin-right: 85px;
+}
+
+footer {
+  background: #A9A9A9;
+ 
+  overflow: auto; /* Отменяем схлопывающиеся отступы */
+  position: relative; /* Относительное позиционирование */
+  padding: 1rem;
+  
+ 
+
+}
+.info_footer {
+    display: flex;
+   
+
+       
+}
+.info_footer_item {
+    flex-direction: column;
+    margin-left: 200px;
+    position: relative;
+   
+}
+
+h5 {
+    color: #1F2B3B;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+
 }
