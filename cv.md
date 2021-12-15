@@ -25,7 +25,7 @@ I am currently working as a junior fronted developer. My goal is to raise the le
 ## Code example
 
 ```javascript
-let num = [40, 79, 12, 1, 5];
+let num = [40, 79, 12, 1, 5, 6];
 for (var i=0, len=num.length; i<len; i++) {
     num[i] *= 10;
 }
