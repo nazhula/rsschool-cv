@@ -26,7 +26,7 @@ I am currently working as a junior fronted developer. My goal is to raise the le
 
 ```javascript
 let num = [40, 79, 12, 1, 5, 6];
-for (var i=0, len=num.length; i<len; i++) {
+for (let i=0, len=num.length; i<len; i++) {
     num[i] *= 10;
 }
 console.log( num ); 
@@ -39,7 +39,7 @@ Since 2006 I have been working as a software engineer
 
 ## Education
 
-- Volga University Tatishchev city Togliatti, engineer
+- Volga University Tatishchev, city Togliatti, engineer
 - Courses:
     - HTML Academy
     - FreeCodeCamp
