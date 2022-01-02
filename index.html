@@ -4,9 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Natalya Zhulanova CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Natalya Zhulanova</h1>  
+  <div class="container">
+      <nav class="menu">
+       <ul class="menu-list">
+         <li class="menu-item"><a href="#contacts" class="menu-link">Contacts</a></li>
+         <li class="menu-item"><a href="#summary" class="menu-link">Summary</a> </li>
+         <li class="menu-item"><a href="#skills" class="menu-link">Skills</a></li>
+         <li class="menu-item"><a href="#code" class="menu-link">Code</a> </li>
+         <li class="menu-item"><a href="#experience" class="menu-link">Experience</a></li>
+         <li class="menu-item"><a href="#education" class="menu-link">Education</a></li>
+         <li class="menu-item"><a href="#languages" class="menu-link">Languages</a></li>
+       </ul> 
+       <div class="gl"></div>   
+      </nav> 
+       
+
+      <header class="header_content">
+        <img class="round" src="./assets/img/avatar.jpg" alt="Avatar">
+        <ul class="head_prof">
+         <li><h1> Zhulanova Natalya</h1></li>
+         <li><p> Junior Front-End Developer</p> </li>
+        </ul>
+      </header>  
+
+      <main class="main_content">
+          <aside class="aside_content" id="contacts">
+            <h2>Contacts</h2>
+            <ul class="aside-list">
+             <li class="aside-item">
+               <img src="/assets/img/city.png" alt="Location" width="28" height="28">
+                <p> Tolyatti, Russia</p>
+             </li>
+
+             <li class="aside-item">
+              <img src="/assets/img/mail.png" alt="Email" width="28" height="28"> 
+              <p> nazhula@mail.ru </p>
+           </li>
+           <li class="aside-item">
+            <img src="/assets/img/github.png" alt="Github" width="28" height="28"> 
+            <a href="https://github.com/nazhula"><p>nazhula</p></a>
+          </li>
+           </ul>  
+          </aside>
+         
+          <div class="vl"></div>   
+          
+          <div class="content"> 
+            <section class="section_summary" id="summary">
+               <h2>Summary </h2>
+               <p> I am currently working as a junior fronted developer. My goal is to raise the level of knowledge in front-end development. </p>
+            </section>
+            
+            <section class="section_skills" id="skills">
+              <h2> Skills </h2>
+              <ul>
+                <li>HTML/CSS</li>
+                <li>Java Script (Basic)</li>
+                <li>SQL, PL/SQL (stored procedures, function)</li>
+                <li>DBMS Oracle (tables, triggers, users and access control)</li>
+                <li>Bash scripts on Unix</li>
+                <li>Git</li>
+              </ul>
+            </section>
+
+            <section class="section_code" id="code">
+              <h2> Code </h2>
+              <figure>
+               <pre>
+                <code>
+                let num = [40, 79, 12, 1, 5, 6]; 
+                for (let i=0, ln=num.length; i &lt; ln; i++) { 
+                num[i] *= 10;
+                  }
+                console.log(num); 
+                </code>
+               </pre>
+              </figure>
+            </section>
+
+            <section class="section_experience" id="experience">
+             <h2> Experience </h2>  
+             <p>Since 2006 I have been working as a software engineer</p>
+            </section>
+            
+            <section class="section_education" id="education">
+              <h2> Education </h2> 
+              <ul>
+                <li>Volga University Tatishchev, city Togliatti, engineer</li>
+                <li>Courses:
+                   <ul>
+                     <li>HTML Academy</li>
+                     <li>FreeCodeCamp</li>
+                     <li>Codewars</li>
+                   </ul>
+                </li>
+              </ul>
+            </section>
+
+            <section class="section_language" id="languages">
+              <h2> Languages </h2> 
+              <p>English (A2 - Pre-Intermediate)</p>
+            </section>
+           
+          </div>
+      </main>
+
+      <footer class="footer_content">
+         
+        <a href="https://github.com/nazhula"><img src="/assets/img/github.png" alt="My Github" width="50" height="50" title="My Github" ></a>
+        
+        <span>Created by Zhulanova @2022</span>    
+        
+        <a href = "https://rs.school/js/"><img src="./assets/img/rs.svg" alt="rs_school_js" width="110" height="50" title="RSSchool"></a> 
+        
+        
+      </footer>
+  </div>
 </body>
 </html>
